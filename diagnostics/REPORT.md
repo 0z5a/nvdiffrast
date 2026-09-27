@@ -43,9 +43,9 @@ shared pages become private as other processes exit, so this single USS
 transition does not establish an allocation leak. A separate C5 run through
 5000 iterations had RSS 778372→778556 KiB and USS 538224→533692 KiB from
 iteration 1250 to 5000; PyTorch reserved memory remained 2 MiB. These
-results narrow #226 on current main and these conditions. They do not
-reproduce its threaded/DataParallel setup or higher log level, and do not
-settle historical-version behavior.
+results narrow #226 on current main and these conditions. The follow-up [threading report](THREADING_RESULTS.md) now covers
+threaded/DataParallel execution and logging levels 0/1 on current main.
+Historical-version behavior remains unverified.
 
 The current native wrapper's destructor deletes its rasterizer
 (`csrc/torch/torch_rasterize.cpp`); `Buffer` destructors call
