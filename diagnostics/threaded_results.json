@@ -1,0 +1,1052 @@
+{
+  "thread-idle-log0.jsonl": [
+    {
+      "stage": "cuda_ready",
+      "iteration": 0,
+      "elapsed_s": 0.9847514980356209,
+      "rss_kib": 616972,
+      "uss_kib": 384768,
+      "threads": 67,
+      "fds": 39,
+      "gc_objects": 186007,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "stage": "threads_ready",
+      "iteration": 0,
+      "elapsed_s": 1.0354235130362213,
+      "rss_kib": 620116,
+      "uss_kib": 387944,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 186307,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "stage": "idle",
+      "iteration": 30,
+      "elapsed_s": 31.06980235601077,
+      "rss_kib": 620116,
+      "uss_kib": 606664,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 186567,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "stage": "idle",
+      "iteration": 60,
+      "elapsed_s": 61.116027167998254,
+      "rss_kib": 620152,
+      "uss_kib": 605908,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 186100,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "stage": "idle",
+      "iteration": 90,
+      "elapsed_s": 91.16165578900836,
+      "rss_kib": 620152,
+      "uss_kib": 390408,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 186360,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "stage": "idle",
+      "iteration": 120,
+      "elapsed_s": 121.20722740702331,
+      "rss_kib": 620152,
+      "uss_kib": 407892,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 186620,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "stage": "closed",
+      "iteration": 120,
+      "elapsed_s": 121.24781611002982,
+      "rss_kib": 620468,
+      "uss_kib": 407928,
+      "threads": 67,
+      "fds": 39,
+      "gc_objects": 186873,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "result": "PASS",
+      "mode": "idle",
+      "log_level": 0
+    }
+  ],
+  "thread-parallel-log0-long.jsonl": [
+    {
+      "stage": "cuda_ready",
+      "iteration": 0,
+      "elapsed_s": 1.1278958030161448,
+      "rss_kib": 696760,
+      "uss_kib": 453276,
+      "threads": 69,
+      "fds": 55,
+      "gc_objects": 186007,
+      "allocated": [
+        0,
+        0
+      ],
+      "reserved": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "threads_ready",
+      "iteration": 0,
+      "elapsed_s": 1.2102009420050308,
+      "rss_kib": 699732,
+      "uss_kib": 456256,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 185913,
+      "allocated": [
+        0,
+        0
+      ],
+      "reserved": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 10,
+      "elapsed_s": 2.2227368209860288,
+      "rss_kib": 945724,
+      "uss_kib": 706868,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253419,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 1250,
+      "elapsed_s": 10.905754450010136,
+      "rss_kib": 948252,
+      "uss_kib": 709468,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253244,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 2500,
+      "elapsed_s": 19.659542187000625,
+      "rss_kib": 948440,
+      "uss_kib": 709556,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253244,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 5000,
+      "elapsed_s": 36.94175785203697,
+      "rss_kib": 948488,
+      "uss_kib": 695016,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253244,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "closed",
+      "iteration": 5000,
+      "elapsed_s": 37.02580494602444,
+      "rss_kib": 946448,
+      "uss_kib": 692980,
+      "threads": 69,
+      "fds": 55,
+      "gc_objects": 253750,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "result": "PASS",
+      "mode": "parallel",
+      "log_level": 0
+    }
+  ],
+  "thread-parallel-log0-run2.jsonl": [
+    {
+      "stage": "cuda_ready",
+      "iteration": 0,
+      "elapsed_s": 0.6493729969952255,
+      "rss_kib": 696824,
+      "uss_kib": 463276,
+      "threads": 69,
+      "fds": 55,
+      "gc_objects": 186007,
+      "allocated": [
+        0,
+        0
+      ],
+      "reserved": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "threads_ready",
+      "iteration": 0,
+      "elapsed_s": 0.7028866489999928,
+      "rss_kib": 699720,
+      "uss_kib": 466452,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 185913,
+      "allocated": [
+        0,
+        0
+      ],
+      "reserved": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 10,
+      "elapsed_s": 1.6545924610109068,
+      "rss_kib": 945484,
+      "uss_kib": 708384,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253420,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 250,
+      "elapsed_s": 3.4196152149816044,
+      "rss_kib": 947800,
+      "uss_kib": 710688,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253420,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 500,
+      "elapsed_s": 5.382888288993854,
+      "rss_kib": 948040,
+      "uss_kib": 710784,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253245,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 1000,
+      "elapsed_s": 8.898007298004813,
+      "rss_kib": 948188,
+      "uss_kib": 710980,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253245,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "closed",
+      "iteration": 1000,
+      "elapsed_s": 8.961992166994605,
+      "rss_kib": 946188,
+      "uss_kib": 708964,
+      "threads": 69,
+      "fds": 55,
+      "gc_objects": 253751,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "result": "PASS",
+      "mode": "parallel",
+      "log_level": 0
+    }
+  ],
+  "thread-parallel-log0-run3.jsonl": [
+    {
+      "stage": "cuda_ready",
+      "iteration": 0,
+      "elapsed_s": 0.6279264689655975,
+      "rss_kib": 696816,
+      "uss_kib": 463300,
+      "threads": 69,
+      "fds": 55,
+      "gc_objects": 186007,
+      "allocated": [
+        0,
+        0
+      ],
+      "reserved": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "threads_ready",
+      "iteration": 0,
+      "elapsed_s": 0.6812798989703879,
+      "rss_kib": 699792,
+      "uss_kib": 466484,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 185913,
+      "allocated": [
+        0,
+        0
+      ],
+      "reserved": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 10,
+      "elapsed_s": 1.7953068499919027,
+      "rss_kib": 945164,
+      "uss_kib": 708300,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253419,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 250,
+      "elapsed_s": 3.5506694709765725,
+      "rss_kib": 947856,
+      "uss_kib": 710548,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253419,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 500,
+      "elapsed_s": 5.569410364958458,
+      "rss_kib": 948056,
+      "uss_kib": 710632,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253244,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 1000,
+      "elapsed_s": 8.957782698969822,
+      "rss_kib": 948308,
+      "uss_kib": 710840,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253244,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "closed",
+      "iteration": 1000,
+      "elapsed_s": 9.11363768397132,
+      "rss_kib": 946296,
+      "uss_kib": 708816,
+      "threads": 69,
+      "fds": 55,
+      "gc_objects": 253750,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "result": "PASS",
+      "mode": "parallel",
+      "log_level": 0
+    }
+  ],
+  "thread-parallel-log0.jsonl": [
+    {
+      "stage": "cuda_ready",
+      "iteration": 0,
+      "elapsed_s": 1.227761127986014,
+      "rss_kib": 696656,
+      "uss_kib": 452696,
+      "threads": 69,
+      "fds": 55,
+      "gc_objects": 186007,
+      "allocated": [
+        0,
+        0
+      ],
+      "reserved": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "threads_ready",
+      "iteration": 0,
+      "elapsed_s": 1.2794209099956788,
+      "rss_kib": 699552,
+      "uss_kib": 455004,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 185913,
+      "allocated": [
+        0,
+        0
+      ],
+      "reserved": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 10,
+      "elapsed_s": 2.22463465196779,
+      "rss_kib": 945392,
+      "uss_kib": 700600,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253419,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 250,
+      "elapsed_s": 3.955875570012722,
+      "rss_kib": 947816,
+      "uss_kib": 702848,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253419,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 500,
+      "elapsed_s": 5.888672838977072,
+      "rss_kib": 947948,
+      "uss_kib": 702936,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253244,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 1000,
+      "elapsed_s": 9.446227120992262,
+      "rss_kib": 948052,
+      "uss_kib": 703140,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253244,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "closed",
+      "iteration": 1000,
+      "elapsed_s": 9.52089544100454,
+      "rss_kib": 946144,
+      "uss_kib": 701132,
+      "threads": 69,
+      "fds": 55,
+      "gc_objects": 253750,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "result": "PASS",
+      "mode": "parallel",
+      "log_level": 0
+    }
+  ],
+  "thread-parallel-log1-run1.jsonl": [
+    {
+      "stage": "cuda_ready",
+      "iteration": 0,
+      "elapsed_s": 1.4415159910568036,
+      "rss_kib": 696820,
+      "uss_kib": 463628,
+      "threads": 69,
+      "fds": 55,
+      "gc_objects": 186007,
+      "allocated": [
+        0,
+        0
+      ],
+      "reserved": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "threads_ready",
+      "iteration": 0,
+      "elapsed_s": 1.4928944980492815,
+      "rss_kib": 699724,
+      "uss_kib": 466872,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 185913,
+      "allocated": [
+        0,
+        0
+      ],
+      "reserved": [
+        0,
+        0
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 10,
+      "elapsed_s": 2.4379391910042614,
+      "rss_kib": 945604,
+      "uss_kib": 709300,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253420,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 250,
+      "elapsed_s": 4.251442023029085,
+      "rss_kib": 948068,
+      "uss_kib": 711336,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253420,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 500,
+      "elapsed_s": 6.239288902026601,
+      "rss_kib": 948212,
+      "uss_kib": 711308,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253245,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 1000,
+      "elapsed_s": 9.873596685007215,
+      "rss_kib": 948396,
+      "uss_kib": 711508,
+      "threads": 71,
+      "fds": 55,
+      "gc_objects": 253245,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "stage": "closed",
+      "iteration": 1000,
+      "elapsed_s": 9.957758960023057,
+      "rss_kib": 946356,
+      "uss_kib": 709496,
+      "threads": 69,
+      "fds": 55,
+      "gc_objects": 253751,
+      "allocated": [
+        1024,
+        0
+      ],
+      "reserved": [
+        2097152,
+        2097152
+      ]
+    },
+    {
+      "result": "PASS",
+      "mode": "parallel",
+      "log_level": 1
+    }
+  ],
+  "thread-render-log0-run1.jsonl": [
+    {
+      "stage": "cuda_ready",
+      "iteration": 0,
+      "elapsed_s": 0.6065174810355529,
+      "rss_kib": 617096,
+      "uss_kib": 602384,
+      "threads": 67,
+      "fds": 39,
+      "gc_objects": 186007,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "stage": "threads_ready",
+      "iteration": 0,
+      "elapsed_s": 0.6725743180140853,
+      "rss_kib": 620232,
+      "uss_kib": 605580,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 186307,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 10,
+      "elapsed_s": 1.6758813110063784,
+      "rss_kib": 822616,
+      "uss_kib": 807944,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 253302,
+      "allocated": [
+        1024
+      ],
+      "reserved": [
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 250,
+      "elapsed_s": 2.278193973994348,
+      "rss_kib": 824756,
+      "uss_kib": 810044,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 253562,
+      "allocated": [
+        1024
+      ],
+      "reserved": [
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 500,
+      "elapsed_s": 2.7069065350224264,
+      "rss_kib": 824800,
+      "uss_kib": 810120,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 253302,
+      "allocated": [
+        1024
+      ],
+      "reserved": [
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 1000,
+      "elapsed_s": 3.9293735530227423,
+      "rss_kib": 824988,
+      "uss_kib": 810212,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 253302,
+      "allocated": [
+        1024
+      ],
+      "reserved": [
+        2097152
+      ]
+    },
+    {
+      "stage": "closed",
+      "iteration": 1000,
+      "elapsed_s": 3.997012050997,
+      "rss_kib": 825180,
+      "uss_kib": 810216,
+      "threads": 67,
+      "fds": 39,
+      "gc_objects": 253555,
+      "allocated": [
+        1024
+      ],
+      "reserved": [
+        2097152
+      ]
+    },
+    {
+      "result": "PASS",
+      "mode": "render",
+      "log_level": 0
+    }
+  ],
+  "thread-render-log1-run1.jsonl": [
+    {
+      "stage": "cuda_ready",
+      "iteration": 0,
+      "elapsed_s": 0.8499519510078244,
+      "rss_kib": 617024,
+      "uss_kib": 602280,
+      "threads": 67,
+      "fds": 39,
+      "gc_objects": 186007,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "stage": "threads_ready",
+      "iteration": 0,
+      "elapsed_s": 0.9378204400418326,
+      "rss_kib": 620152,
+      "uss_kib": 605476,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 186307,
+      "allocated": [
+        0
+      ],
+      "reserved": [
+        0
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 10,
+      "elapsed_s": 1.9037640450405888,
+      "rss_kib": 822648,
+      "uss_kib": 807864,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 253302,
+      "allocated": [
+        1024
+      ],
+      "reserved": [
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 250,
+      "elapsed_s": 2.5712427840335295,
+      "rss_kib": 824740,
+      "uss_kib": 640976,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 253562,
+      "allocated": [
+        1024
+      ],
+      "reserved": [
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 500,
+      "elapsed_s": 3.046311311016325,
+      "rss_kib": 824772,
+      "uss_kib": 597680,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 253302,
+      "allocated": [
+        1024
+      ],
+      "reserved": [
+        2097152
+      ]
+    },
+    {
+      "stage": "steady",
+      "iteration": 1000,
+      "elapsed_s": 4.299998892995063,
+      "rss_kib": 824772,
+      "uss_kib": 594128,
+      "threads": 68,
+      "fds": 39,
+      "gc_objects": 253302,
+      "allocated": [
+        1024
+      ],
+      "reserved": [
+        2097152
+      ]
+    },
+    {
+      "stage": "closed",
+      "iteration": 1000,
+      "elapsed_s": 4.349091682001017,
+      "rss_kib": 825000,
+      "uss_kib": 594140,
+      "threads": 67,
+      "fds": 39,
+      "gc_objects": 253555,
+      "allocated": [
+        1024
+      ],
+      "reserved": [
+        2097152
+      ]
+    },
+    {
+      "result": "PASS",
+      "mode": "render",
+      "log_level": 1
+    }
+  ],
+  "cube_e2e": [
+    {
+      "case": "continuous",
+      "seed": 20260927,
+      "iterations": 1001,
+      "resolution": 32,
+      "initial_geometric_error": 0.489277,
+      "final_interval_geometric_error": 0.003337,
+      "elapsed_s": 8.202982364979107,
+      "result": "PASS"
+    },
+    {
+      "case": "discontinuous",
+      "seed": 20260927,
+      "iterations": 1001,
+      "resolution": 32,
+      "initial_geometric_error": 0.489277,
+      "final_interval_geometric_error": 0.000614,
+      "elapsed_s": 5.2068640580400825,
+      "result": "PASS"
+    }
+  ],
+  "sha256": {
+    "diagnostics/threaded_context_probe.py": "4fd4c701449beb675faa920014eb3116aee5bc6cc56e80c808c241ef35f5769c",
+    "diagnostics/cube_e2e.py": "053ea07138d605425d61f7cb60958408492e3a877708ecc5cdffa191101ef03c",
+    "nvdiffrast/torch/ops.py": "135f7b64bd8eb7698491b8224cdb737faf7672b558e6c5c841e596401424cabf",
+    "_nvdiffrast_c.cpython-312-x86_64-linux-gnu.so": "525578b3b17c56f360ed349e82679db1bcacd06674cb3b5a6c2bc4d8745f7bcf"
+  }
+}
